@@ -8,8 +8,17 @@ Sitemap: https://consultoriomedicolaestrella.com/sitemap.xml
 Disallow: /admin
 Disallow: /private
 
-# Allow all crawlers
+# Allow all Google crawlers explicitly
 User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
 Allow: /
 
 User-agent: Bingbot
